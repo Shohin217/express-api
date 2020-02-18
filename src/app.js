@@ -62,7 +62,8 @@ server.delete('/api/posts/:id', (req, res) => {
     res.send();
 });
 
+const port = process.env.PORT || 9999;
 
-server.listen(9999)
+server.listen(port);
 
 
