@@ -1,0 +1,62 @@
+
+@api  =http://localhost:9999/api
+# GET {{api}}/posts
+
+
+# ###
+
+# POST {{api}}/posts
+# Content-Type: application/json
+
+
+# {
+#     "id": 2,
+#     "name": "Eddited POST"
+# } 
+
+# ###
+
+# POST {{api}}/posts
+# Content-Type: application/json
+
+# {
+#     "id": 0,
+#     "name": "First Post"
+# } 
+
+
+# ###
+
+
+# DELETE {{api}}/posts/1
+# Content-Type: application/json
+
+
+
+
+
+
+
+GET {{api}}/posts
+Content-Type: application/json
+
+
+###
+
+
+POST  {{api}}/posts
+Content-Type: application/json
+
+
+{
+    "id": 0,
+    "name": "111"  
+}
+
+
+
+###
+
+
+DELETE {{api}}/posts/1
+Content-Type: application/json
